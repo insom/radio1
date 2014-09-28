@@ -1,0 +1,33 @@
+##############################################################
+
+a328.name=328 w/ 8Mhz Internal
+a328.build.mcu=atmega328p
+a328.build.f_cpu=8000000L
+a328.build.core=arduino
+a328.build.variant=standard
+a328.upload.fiotocol=arduino
+a328.upload.maximum_size=30720
+a328.upload.speed=9600
+a328.bootloader.low_fuses=0xE2
+a328.bootloader.high_fuses=0xED
+a328.bootloader.extended_fuses=0x07
+a328.bootloader.path=arduino:atmega
+a328.bootloader.file=ATmegaBOOT_168_atmega328_pro_8MHz.hex
+
+##############################################################
+
+a168.name=168 w/ 8Mhz Internal
+a168.build.mcu=atmega168
+a168.build.f_cpu=8000000L
+a168.build.core=arduino
+a168.build.variant=standard
+a168.upload.fiotocol=arduino
+a168.upload.maximum_size=14336
+a168.upload.speed=9600
+a168.bootloader.low_fuses=0xE2
+a168.bootloader.high_fuses=0xDD
+a168.bootloader.extended_fuses=0x0
+a168.bootloader.path=arduino:atmega
+a168.bootloader.file=ATmegaBOOT_168_pro_8MHz.hex
+a168.bootloader.unlock_bits=0x3F
+a168.bootloader.lock_bits=0x0F

@@ -1,0 +1,4 @@
+bp.name=BusPirate
+bp.communication=serial
+bp.protocol=buspirate
+bp.speed=115200
